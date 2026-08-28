@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@wix/cli": "^1.0.0",
+    "@wix/eslint-plugin-cli": "^1.0.0",
+    "eslint": "^8.25.0",
+    "react": "16.14.0"
+  },
+  "dependencies": {
+    "@wix/bookings": "^1.0.1634",
+    "wix-web-module": "^1.0.0",
+    "wix-data": "^1.0.0",
+    "wix-location": "^1.0.0",
+    "wix-http-functions": "^1.0.0",
+    "wix-ecom-backend": "^1.0.0",
+    "wix-members-backend": "^1.0.0",
+    "wix-auth": "^1.0.0",
+    "wix-members-frontend": "^1.0.0",
+    "wix-window-frontend": "^1.0.0",
+    "wix-secrets-backend": "^1.0.0"
+  },
+  "scripts": {
+    "postinstall": "wix sync-types",
+    "dev": "wix dev",
+    "lint": "eslint ."
+  }
+}

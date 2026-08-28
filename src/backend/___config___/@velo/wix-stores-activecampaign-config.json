@@ -1,0 +1,15 @@
+{
+    "activeCampaign": {
+        "apiAccessUrl": "",
+        "connection": {
+            "initData": {
+                "service": "",
+                "externalid": "",
+                "name": "",
+                "logoUrl": "",
+                "linkUrl": ""
+            },
+            "id": ""
+        }
+    }
+}
